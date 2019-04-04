@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "thriftDemoApi", "thriftDemoApi\thriftDemoApi.csproj", "{295917E8-8D19-4ED1-9AE8-0B782D6A85A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "thriftDemoClient", "thriftDemoClient\thriftDemoClient.csproj", "{F9BA6D7D-0104-4DDE-8A9D-9B3512A3C20B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "thriftDemoServer", "thriftDemoServer\thriftDemoServer.csproj", "{E55572C1-75EC-41C1-B1D1-532E22B4E597}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{295917E8-8D19-4ED1-9AE8-0B782D6A85A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{295917E8-8D19-4ED1-9AE8-0B782D6A85A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{295917E8-8D19-4ED1-9AE8-0B782D6A85A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{295917E8-8D19-4ED1-9AE8-0B782D6A85A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9BA6D7D-0104-4DDE-8A9D-9B3512A3C20B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9BA6D7D-0104-4DDE-8A9D-9B3512A3C20B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9BA6D7D-0104-4DDE-8A9D-9B3512A3C20B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9BA6D7D-0104-4DDE-8A9D-9B3512A3C20B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E55572C1-75EC-41C1-B1D1-532E22B4E597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E55572C1-75EC-41C1-B1D1-532E22B4E597}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E55572C1-75EC-41C1-B1D1-532E22B4E597}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E55572C1-75EC-41C1-B1D1-532E22B4E597}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

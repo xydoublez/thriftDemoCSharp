@@ -15,7 +15,7 @@ using System.Runtime.Serialization;
 using Thrift.Protocol;
 using Thrift.Transport;
 
-namespace msunsoft.service
+namespace com.msunsoft.service
 {
   public partial class calculator {
     public interface ISync {

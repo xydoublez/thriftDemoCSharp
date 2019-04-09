@@ -20,7 +20,7 @@ namespace testThriftIFace
             //使用高密度二进制协议
             var pfactory = new TCompactProtocol.Factory();
             TMultiplexedProcessor processor = new TMultiplexedProcessor();
-            msunsoft.service.calculator.Processor calcProcessor = new msunsoft.service.calculator.Processor(new Server());
+            com.msunsoft.service.calculator.Processor calcProcessor = new com.msunsoft.service.calculator.Processor(new Server());
             processor.RegisterProcessor("test-server-rpc$com.msunsoft.service.calculator$2.0", calcProcessor);
             TThreadedServer server = new TThreadedServer(processor, serverTransport,tfactory,pfactory);
             Console.WriteLine("Starting server on port 25001 ...");
